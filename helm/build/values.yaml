@@ -1,0 +1,16 @@
+app:
+  name: my-quarkus-app8
+  namespace: my-quarkus-app8-dev
+  cluster: .apps.cluster-pzz4f.pzz4f.sandbox1805.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/assemble-dev-org/my-quarkus-app8
+  org: assemble-dev-org
+  name: my-quarkus-app8
+
+image:
+  registry: Quay
+  host: quay.io
+  organization: jfroehli
+  name: my-quarkus-app8
